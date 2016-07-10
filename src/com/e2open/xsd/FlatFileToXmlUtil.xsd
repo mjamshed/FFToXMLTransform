@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified">
+  <xs:element name="FlatFileToXmlUtil">
+    <xs:annotation>
+      <xs:documentation> edited with XML Spy v4.4 U (http://www.xmlspy.com) by AB (AB) </xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="Package"/>
+        <xs:element name="Mapper">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MappingList" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="Format"/>
+                    <xs:element type="xs:string" name="InputFormat"/>
+                    <xs:element type="xs:string" name="OutputXPath"/>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="loop" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

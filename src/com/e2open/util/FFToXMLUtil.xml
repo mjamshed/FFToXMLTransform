@@ -1,0 +1,36 @@
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by AB (AB) -->
+<FlatFileToXmlUtil>
+	<Package>com.e2open.transform</Package>
+	<Mapper>
+	<!-- 	<MappingList loop="false">
+			<Format>HardCode</Format>
+			<InputFormat>someText</InputFormat>
+			<OutputXPath>/Pip3B2AdvanceShipmentNotification/AdvancedShipmentNotification/BuyingPartner/purchasedBy/PartnerDescription/BusinessDescription/businessName/FreeFormText</OutputXPath>
+		</MappingList>
+		<MappingList loop="false">
+			<Format>HardCode</Format>
+			<InputFormat>someText</InputFormat>
+			<OutputXPath>/Pip3B2AdvanceShipmentNotification/AdvancedShipmentNotification/BuyingPartner/purchasedBy/PartnerDescription/BusinessDescription/GlobalBusinessIdentifier</OutputXPath>
+		</MappingList>
+		<MappingList loop="false">
+			<Format>HardCode</Format>
+			<InputFormat>someText</InputFormat>
+			<OutputXPath>/Pip3B2AdvanceShipmentNotification/AdvancedShipmentNotification/BuyingPartner/purchasedBy/PartnerDescription/ContactInformation/contactName/FreeFormText</OutputXPath>
+		</MappingList>
+		<MappingList loop="true">
+			<Format>HardCode</Format>
+			<InputFormat>someText</InputFormat>
+			<OutputXPath>/Pip3B2AdvanceShipmentNotification/AdvancedShipmentNotification/BuyingPartner/purchasedBy/PartnerDescription/PhysicalLocation/PartnerLocationIdentification/ProprietaryDomainIdentifier</OutputXPath>
+		</MappingList> -->
+		<MappingList loop="true">
+			<Format>HardCode</Format>
+			<InputFormat>someText</InputFormat>
+			<OutputXPath>/Pip3B2AdvanceShipmentNotification/AdvancedShipmentNotification/Shipment/ShippingContainer/GlobalPackageTypeCode</OutputXPath>
+		</MappingList> 
+		<MappingList loop="true">
+			<Format>HardCode</Format>
+			<InputFormat>someText</InputFormat>
+			<OutputXPath>/Pip3B2AdvanceShipmentNotification/AdvancedShipmentNotification/Shipment/ShippingContainer/MassPhysicalDimension/Weight/GlobalPhysicalUnitOfMeasureCode</OutputXPath>
+		</MappingList>
+	</Mapper>
+</FlatFileToXmlUtil>

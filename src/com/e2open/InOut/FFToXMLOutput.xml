@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Pip3B2AdvanceShipmentNotification>
+    <AdvancedShipmentNotification>
+        <Shipment>
+            <ShippingContainer>
+                <GlobalPackageTypeCode>9</GlobalPackageTypeCode>
+                <MassPhysicalDimension>
+                    <Weight>
+                        <GlobalPhysicalUnitOfMeasureCode>10</GlobalPhysicalUnitOfMeasureCode>
+                    </Weight>
+                </MassPhysicalDimension>
+            </ShippingContainer>
+            <ShippingContainer>
+                <GlobalPackageTypeCode>9</GlobalPackageTypeCode>
+                <MassPhysicalDimension>
+                    <Weight>
+                        <GlobalPhysicalUnitOfMeasureCode>10</GlobalPhysicalUnitOfMeasureCode>
+                    </Weight>
+                </MassPhysicalDimension>
+            </ShippingContainer>
+        </Shipment>
+    </AdvancedShipmentNotification>
+</Pip3B2AdvanceShipmentNotification>

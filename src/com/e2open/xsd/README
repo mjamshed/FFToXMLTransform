@@ -1,0 +1,2 @@
+ xjc -b binding.xml -p <package> <xsdFile>
+ xjc -b binding.xml -p com.e2open.transform MiddlewareMessage.xsd
